@@ -10,6 +10,7 @@
         "doctrine/doctrine-bundle": "^2.1",
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^2.7",
+        "google/apiclient": "~2.0",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "5.1.*",
@@ -35,6 +36,7 @@
         "symfony/twig-bundle": "5.1.*",
         "symfony/validator": "5.1.*",
         "symfony/web-link": "5.1.*",
+        "symfony/webpack-encore-bundle": "^1.7",
         "symfony/yaml": "5.1.*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
