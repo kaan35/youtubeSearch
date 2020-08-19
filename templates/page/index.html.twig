@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+{% block title %}Youtube Search{% endblock %}
+{% block body %}
+	<div class="uk-section">
+		<div class="uk-container uk-container-small  uk-padding-large uk-padding-remove-top">
+			<form method="post" id="youtubeSearchForm">
+				<fieldset class="uk-fieldset uk-margin-medium-top">
+					<div class="uk-text-center">
+						<legend class="uk-legend">Youtube Video Search</legend>
+					</div>
+					<div class="uk-margin-auto uk-text-center uk-margin-medium-top">
+						<div class="uk-inline">
+							<a class="uk-form-icon uk-form-icon-flip" id="youtubeSearchButton" href="#" uk-icon="icon: search"></a>
+							<input type="text" class="uk-input" id="keyword" name="keyword" placeholder="Search">
+						</div>
+					</div>
+				</fieldset>
+			</form>
+			<div>
+				<div id="youtubeSearchSpinner"></div>
+				<div id="youtubeSearchResult" class="uk-margin-medium-top"></div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
