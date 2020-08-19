@@ -1,0 +1,7 @@
+@import "~uikit";
+.noty_type__error, .uk-notification-message-danger {background-color : #fff !important;color : #000 !important;border-left : 10px solid #ce352c}
+.noty_type__success, .uk-notification-message-success {background-color : #fff !important;color : #000 !important;border-left : 10px solid #60a917}
+.noty_type__info, .noty_type__information, .uk-notification-message-primary {background-color : #fff !important;color : #000 !important;border-left : 10px solid #1ba1e2}
+.uk-notification-message {font-size : inherit !important;}
+.noty_body {font-size : 14px !important;padding : 20px}
+.noty_bar {margin-bottom : 10px;box-shadow : 0 5px 15px rgba(0, 0, 0, .08)}
