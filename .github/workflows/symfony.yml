@@ -40,6 +40,7 @@ jobs:
           touch .env
           echo DATABASE_URL: postgresql://symfony:ChangeMe@127.0.0.1:5432/app?serverVersion=13&charset=utf8 > .env
           echo KERNEL_CLASS='App\Kernel'  >> .env
+          echo SYMFONY_DEPRECATIONS_HELPER=disabled >> .env
           cat .env
       - name: Create Database
         run: |
